@@ -1,0 +1,93 @@
+:root {
+    --cybergen-primary: #2C3E50;
+    --cybergen-secondary: #3498DB;
+    --cybergen-accent: #E74C3C;
+    --cybergen-light: #ECF0F1;
+    --cybergen-dark: #1a252f;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cybergen-light);
+    color: var(--cybergen-dark);
+    padding-top: 60px;
+}
+
+.navbar {
+    background-color: var(--cybergen-primary);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.cybergen-header {
+    background-color: var(--cybergen-primary);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 5px solid var(--cybergen-secondary);
+}
+
+.cybergen-footer {
+    background-color: var(--cybergen-primary);
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 5px solid var(--cybergen-secondary);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: var(--cybergen-secondary);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cybergen {
+    background-color: var(--cybergen-secondary);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-cybergen:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: var(--cybergen-secondary);
+    margin-bottom: 15px;
+}
+
+.vulnerability-card {
+    border-left: 4px solid var(--cybergen-accent);
+}
+
+.success-card {
+    border-left: 4px solid #2ecc71;
+}
+
+.loading-spinner {
+    width: 4rem;
+    height: 4rem;
+    border-width: 0.25rem;
+    color: var(--cybergen-secondary);
+}
+
+.alert-cybergen {
+    background-color: var(--cybergen-primary);
+    color: white;
+    border: none;
+}
