@@ -1,0 +1,18 @@
+# Streamlit specific files to ignore
+secrets.toml
+watchdog_cache/
+
+# Cache and temporary files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+secrets.toml
+
+# IDE related
+.vscode/
+.idea/
+
+# Log files
+*.log
