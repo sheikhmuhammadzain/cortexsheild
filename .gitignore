@@ -16,3 +16,8 @@ secrets.toml
 
 # Log files
 *.log
+giskard_env/
+
+# Generated reports
+GRIT_KB_scan_results.html
+cybergen_report_data.json
