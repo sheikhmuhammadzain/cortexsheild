@@ -1,0 +1,13 @@
+# Deployment Configuration for Streamlit Cloud
+
+[settings]
+# Main script to run
+mainModule = "app.py"
+
+# Python version for deployment
+pythonVersion = "3.9"
+
+# Other settings
+enableCORS = true
+enableXsrfProtection = true
+gatherUsageStats = false
